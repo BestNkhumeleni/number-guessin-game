@@ -7,7 +7,7 @@ guess = eval(input("guess a number between 1 and 99:\n"))
 while True:  
     if num == guess:
         print("you must be a prophet because gawd daym")
-        print("unless it took you more thab one try in which case, get good bro")
+        print("unless it took you more than one try in which case, get good bro")
         break
     elif num-5<guess and guess<num+5:
         print("prety damn close you are only about 5 off")
@@ -22,4 +22,3 @@ while True:
         print("Yoh")
     print()
     guess = eval(input("One more time guess a number between 1 and 99:\n"))
-        
